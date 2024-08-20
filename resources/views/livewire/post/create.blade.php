@@ -10,8 +10,8 @@
                         <span class="label-text">Title</span>
                         <span class="label-text-alt">Top Right label</span>
                     </div>
-                    <input wire:model="title" type="text" placeholder="Type here" class="input input-bordered w-full max-w" />
-                    @error('title')
+                    <input wire:model="form.title" type="text" placeholder="Type here" class="input input-bordered w-full max-w" />
+                    @error('form.title')
                         <small class="text-red-500">{{$message}}</small>
                     @enderror
                 </label>
@@ -19,8 +19,8 @@
                     <div class="label">
                         <span class="label-text">Body</span>
                     </div>
-                    <textarea wire:model="body" class="textarea textarea-bordered" placeholder="What do you think  .. ?"></textarea>
-                    @error('body')
+                    <textarea wire:model="form.body" class="textarea textarea-bordered" placeholder="What do you think  .. ?"></textarea>
+                    @error('form.body')
                         <small class="text-red-500">{{$message}}</small>
                     @enderror
                 </label>
