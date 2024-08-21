@@ -24,6 +24,8 @@ class PostForm extends Form
             $this->validate()
         );
         
+        session()->flash('warning','data has been saved');
+
         $this->reset();
     }
 

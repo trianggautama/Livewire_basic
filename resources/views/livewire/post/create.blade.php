@@ -1,6 +1,7 @@
 <div class="px-4 py-4">
     <div class="card">
         <div class="card-body">
+            <x-alert/>
             <div class="card-title">
                 New Post 
             </div>

@@ -9,7 +9,6 @@
   </head>
   <body class="font-sans antialiased">
     <div class="min-h-screen bg-gray-100">
-        <x-navigation-menu />
         <main class="flex-1" >
             {{ $slot }}
         </main>
